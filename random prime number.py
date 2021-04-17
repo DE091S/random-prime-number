@@ -9,19 +9,19 @@ m =[]
 i = 0
 
 ############################################################
-while(i<len):#                                             #
-    m.append(i)#                                           #
-    i+=1#                                                  #
-p = 2#                                                     #
-while(p<len):#                                             #
-    if(m[p] !=0):#                                         #
-        sc+=1#                                             #
-        j = p#                                             #
-        rand.append(j)#                                    #
-        while(j<len):#                                     #
-            m[j]=0#                                        #
-            j+=p#                                          #
-    p+=1#                                                  #
+while(i<len):
+    m.append(i)
+    i+=1
+p = 2
+while(p<len):
+    if(m[p] !=0):
+        sc+=1
+        j = p
+        rand.append(j)
+        while(j<len):
+            m[j]=0
+            j+=p
+    p+=1
 ############################################################
 
 if charra < 3:
